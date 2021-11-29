@@ -1,5 +1,7 @@
 package com.mavenproject;
+
 import org.openqa.selenium.WebDriver;
+
 import com.pom.Addtocart;
 import com.pom.BackOrder;
 import com.pom.Confirm;
@@ -9,7 +11,8 @@ import com.pom.ProcessCarrier;
 import com.pom.Signin;
 import com.pom.Summary;
 import com.pom.Women;
-public class Run extends Base_Class {
+
+public class Runner1 extends Base_Class {
 	public static WebDriver driver = Base_Class.getBrowser("chrome");
 	public static Home_Page home = new Home_Page(driver);
 	public static Signin signin = new Signin(driver);
@@ -30,11 +33,11 @@ public class Run extends Base_Class {
 		clickOnElement(signin.getSubmit());
 		clickOnElement(women.getWomen());
 		javascript();
-		select(women.getSelectproductsort(), "Price: Lowest first");
+		dropdown(women.getSelectproductsort(), "Price: Lowest first","byVisibleText");
 		clickOnElement(women.getProductcontainer());
 		clickOnElement(women.getMore());
 		clickOnElement(addtocart.getQuantity());
-		selectindex(addtocart.getGroup1(), "2");
+		dropdown(addtocart.getGroup1(),"2","byIndex");
 		clickOnElement(addtocart.getColour());
 		clickOnElement(addtocart.getSubmit());
 		clickOnElement(addtocart.getProceed());
@@ -49,3 +52,6 @@ public class Run extends Base_Class {
 		clickOnElement(backorder.getLogout());
 	}
 }
+
+
+

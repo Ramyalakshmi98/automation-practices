@@ -24,27 +24,26 @@ public class Runner extends Base_Class {
 
 		WebElement button = driver.findElement(By.xpath("//button[@name='SubmitLogin']"));
 		clickOnElement(button);
-
 		WebElement women = driver.findElement(By.xpath("//a[text()='Women']"));
 		clickOnElement(women);
-
 		javascript();
-
+		thread();
 		WebElement sort = driver.findElement(By.xpath("//select[@id='selectProductSort']"));
-		select(sort, "Price: Lowest first");
-
+		//select(sort, "Price: Lowest first");
+          dropdown(sort,"Price: Lowest first", "byVisibleText");
+          
 		WebElement quick = driver.findElement(By.xpath("//div[@class='product-container']"));
 		clickOnElement(quick);
-
+		
 		WebElement more = driver.findElement(By.xpath("//span[text()='More']"));
 		clickOnElement(more);
-
+		thread();
 		WebElement addingcart = driver.findElement(By.xpath("//a[@data-field-qty='qty'][2]"));
 		clickOnElement(addingcart);
 
 		WebElement size2 = driver.findElement(By.xpath("//select[@id='group_1']"));
-		selectindex(size2, "2");
-
+		//selectindex(size2, "2");
+        dropdown(size2,"2","byIndex");
 		WebElement color = driver.findElement(By.xpath("//a[@name='Blue']"));
 		clickOnElement(color);
 

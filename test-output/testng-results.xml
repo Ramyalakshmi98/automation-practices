@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74832" started-at="2021-11-30T00:38:58 IST" finished-at="2021-11-30T00:40:13 IST">
+    <groups>
+      <group name="booking">
+        <method signature="Automation_TestNg.check()[pri:4, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="check" class="com.testng_feature.Automation_TestNg"/>
+        <method signature="Automation_TestNg.confirm()[pri:5, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="confirm" class="com.testng_feature.Automation_TestNg"/>
+        <method signature="Automation_TestNg.summary()[pri:3, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="summary" class="com.testng_feature.Automation_TestNg"/>
+      </group> <!-- booking -->
+      <group name="signin">
+        <method signature="Automation_TestNg.signin()[pri:0, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="signin" class="com.testng_feature.Automation_TestNg"/>
+        <method signature="Automation_TestNg.url()[pri:-1, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="url" class="com.testng_feature.Automation_TestNg"/>
+      </group> <!-- signin -->
+      <group name="againback">
+        <method signature="Automation_TestNg.backorder()[pri:6, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="backorder" class="com.testng_feature.Automation_TestNg"/>
+        <method signature="Automation_TestNg.logout()[pri:7, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="logout" class="com.testng_feature.Automation_TestNg"/>
+      </group> <!-- againback -->
+      <group name="women">
+        <method signature="Automation_TestNg.addtocart()[pri:2, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="addtocart" class="com.testng_feature.Automation_TestNg"/>
+        <method signature="Automation_TestNg.women()[pri:1, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="women" class="com.testng_feature.Automation_TestNg"/>
+      </group> <!-- women -->
+    </groups>
+    <test name="Default test" duration-ms="74832" started-at="2021-11-30T00:38:58 IST" finished-at="2021-11-30T00:40:13 IST">
+      <class name="com.testng_feature.Automation_TestNg">
+        <test-method status="PASS" signature="url()[pri:-1, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="url" duration-ms="12202" started-at="2021-11-30T00:38:59 IST" finished-at="2021-11-30T00:39:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="signin()[pri:0, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="signin" duration-ms="8528" started-at="2021-11-30T00:39:11 IST" finished-at="2021-11-30T00:39:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin -->
+        <test-method status="PASS" signature="women()[pri:1, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="women" duration-ms="10811" started-at="2021-11-30T00:39:19 IST" finished-at="2021-11-30T00:39:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- women -->
+        <test-method status="PASS" signature="addtocart()[pri:2, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="addtocart" duration-ms="8066" started-at="2021-11-30T00:39:30 IST" finished-at="2021-11-30T00:39:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="summary()[pri:3, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="summary" duration-ms="12654" started-at="2021-11-30T00:39:38 IST" finished-at="2021-11-30T00:39:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- summary -->
+        <test-method status="PASS" signature="check()[pri:4, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="check" duration-ms="4579" started-at="2021-11-30T00:39:51 IST" finished-at="2021-11-30T00:39:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method status="PASS" signature="confirm()[pri:5, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="confirm" duration-ms="11543" started-at="2021-11-30T00:39:55 IST" finished-at="2021-11-30T00:40:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm -->
+        <test-method status="PASS" signature="backorder()[pri:6, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="backorder" duration-ms="2721" started-at="2021-11-30T00:40:07 IST" finished-at="2021-11-30T00:40:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backorder -->
+        <test-method status="PASS" signature="logout()[pri:7, instance:com.testng_feature.Automation_TestNg@3fa247d1]" name="logout" duration-ms="3605" started-at="2021-11-30T00:40:10 IST" finished-at="2021-11-30T00:40:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.testng_feature.Automation_TestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
